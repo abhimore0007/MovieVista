@@ -1,0 +1,12 @@
+
+## These is a Notes of memo
+
+function child({props}){
+    display props
+}
+
+function Parent(){
+    const[props,setProps] =usestate(0)
+    setProps(10)
+    <child props={props}>
+}
